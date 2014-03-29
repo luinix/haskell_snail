@@ -17,5 +17,5 @@ submatrix = tail . map init
 snail :: Matrix -> [Integer]
 snail [] = []
 snail (x:[]) = x
-snail ((x:[]):xs) = [x] ++ (map head xs)
+snail ((x:[]):xs) = x : map head xs
 snail x = goRight x ++ goDown x ++ snail ( rotate $ submatrix x )
