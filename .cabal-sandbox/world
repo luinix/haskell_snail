@@ -1,0 +1,3 @@
+hlint -any
+quickcheck -any
+hspec -any

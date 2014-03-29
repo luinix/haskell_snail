@@ -1,0 +1,167 @@
+
+package: QuickCheck-2.7.3
+os: osx
+arch: x86_64
+compiler: ghc-7.6.3
+client: cabal-install-1.18.0.3
+flags: templatehaskell base4 base3
+dependencies: tf-random-0.4 template-haskell-2.8.0.0 random-1.0.1.1
+              base-4.6.0.1
+install-outcome: InstallOk
+docs-outcome: NotTried
+tests-outcome: NotTried
+
+package: ansi-terminal-0.6.1.1
+os: osx
+arch: x86_64
+compiler: ghc-7.6.3
+client: cabal-install-1.18.0.3
+flags: splitbase -example
+dependencies: unix-2.6.0.1 base-4.6.0.1
+install-outcome: InstallOk
+docs-outcome: NotTried
+tests-outcome: NotTried
+
+package: hspec-1.9.0
+os: osx
+arch: x86_64
+compiler: ghc-7.6.3
+client: cabal-install-1.18.0.3
+flags:
+dependencies: transformers-0.3.0.0 time-1.4.0.1 tf-random-0.4
+              setenv-0.1.1.1 random-1.0.1.1 quickcheck-io-0.1.0
+              hspec-expectations-0.5.0.1 filepath-1.3.0.1 directory-1.2.0.1
+              deepseq-1.3.0.1 base-4.6.0.1 ansi-terminal-0.6.1.1 QuickCheck-2.7.3
+              HUnit-1.2.5.2
+install-outcome: InstallOk
+docs-outcome: NotTried
+tests-outcome: NotTried
+
+package: hspec-expectations-0.5.0.1
+os: osx
+arch: x86_64
+compiler: ghc-7.6.3
+client: cabal-install-1.18.0.3
+flags:
+dependencies: base-4.6.0.1 HUnit-1.2.5.2
+install-outcome: InstallOk
+docs-outcome: NotTried
+tests-outcome: NotTried
+
+package: quickcheck-io-0.1.0
+os: osx
+arch: x86_64
+compiler: ghc-7.6.3
+client: cabal-install-1.18.0.3
+flags:
+dependencies: base-4.6.0.1 QuickCheck-2.7.3 HUnit-1.2.5.2
+install-outcome: InstallOk
+docs-outcome: NotTried
+tests-outcome: NotTried
+
+package: setenv-0.1.1.1
+os: osx
+arch: x86_64
+compiler: ghc-7.6.3
+client: cabal-install-1.18.0.3
+flags:
+dependencies: unix-2.6.0.1 base-4.6.0.1
+install-outcome: InstallOk
+docs-outcome: NotTried
+tests-outcome: NotTried
+
+package: tf-random-0.4
+os: osx
+arch: x86_64
+compiler: ghc-7.6.3
+client: cabal-install-1.18.0.3
+flags:
+dependencies: time-1.4.0.1 random-1.0.1.1 primitive-0.5.0.1
+              base-4.6.0.1
+install-outcome: InstallOk
+docs-outcome: NotTried
+tests-outcome: NotTried
+
+package: cmdargs-0.10.7
+os: osx
+arch: x86_64
+compiler: ghc-7.6.3
+client: cabal-install-1.18.0.3
+flags: -testprog quotation
+dependencies: transformers-0.3.0.0 template-haskell-2.8.0.0
+              process-1.1.0.2 filepath-1.3.0.1 base-4.6.0.1
+install-outcome: InstallOk
+docs-outcome: NotTried
+tests-outcome: NotTried
+
+package: cpphs-1.18.4
+os: osx
+arch: x86_64
+compiler: ghc-7.6.3
+client: cabal-install-1.18.0.3
+flags:
+dependencies: polyparse-1.9 old-time-1.1.0.1 old-locale-1.0.0.5
+              directory-1.2.0.1 base-4.6.0.1
+install-outcome: InstallOk
+docs-outcome: NotTried
+tests-outcome: NotTried
+
+package: haskell-src-exts-1.14.0.1
+os: osx
+arch: x86_64
+compiler: ghc-7.6.3
+client: cabal-install-1.18.0.3
+flags: base4
+dependencies: pretty-1.1.1.0 cpphs-1.18.4 base-4.6.0.1
+              array-0.4.0.1
+install-outcome: InstallOk
+docs-outcome: NotTried
+tests-outcome: NotTried
+
+package: hlint-1.8.59
+os: osx
+arch: x86_64
+compiler: ghc-7.6.3
+client: cabal-install-1.18.0.3
+flags: threaded
+dependencies: uniplate-1.6.12 transformers-0.3.0.0 process-1.1.0.2
+              hscolour-1.20.3 haskell-src-exts-1.14.0.1 filepath-1.3.0.1
+              directory-1.2.0.1 cpphs-1.18.4 containers-0.5.0.0 cmdargs-0.10.7
+              base-4.6.0.1
+install-outcome: InstallOk
+docs-outcome: NotTried
+tests-outcome: NotTried
+
+package: hscolour-1.20.3
+os: osx
+arch: x86_64
+compiler: ghc-7.6.3
+client: cabal-install-1.18.0.3
+flags:
+dependencies: containers-0.5.0.0 base-4.6.0.1
+install-outcome: InstallOk
+docs-outcome: NotTried
+tests-outcome: NotTried
+
+package: polyparse-1.9
+os: osx
+arch: x86_64
+compiler: ghc-7.6.3
+client: cabal-install-1.18.0.3
+flags:
+dependencies: text-0.11.3.1 bytestring-0.10.0.2 base-4.6.0.1
+install-outcome: InstallOk
+docs-outcome: NotTried
+tests-outcome: NotTried
+
+package: uniplate-1.6.12
+os: osx
+arch: x86_64
+compiler: ghc-7.6.3
+client: cabal-install-1.18.0.3
+flags: typeable_fingerprint separate_syb
+dependencies: unordered-containers-0.2.3.0 syb-0.4.0
+              hashable-1.1.2.5 containers-0.5.0.0 base-4.6.0.1
+install-outcome: InstallOk
+docs-outcome: NotTried
+tests-outcome: NotTried
