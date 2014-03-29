@@ -18,7 +18,7 @@ goUp :: Matrix -> [Integer]
 goUp = reverse . init . tail . map head
 
 perimeter :: Matrix -> [Integer]
-perimeter x = head x ++ goDown x ++ goLeft x ++ goUp x
+perimeter x = goRight x ++ goDown x ++ goLeft x ++ goUp x
 
 submatrix :: Matrix -> Matrix
 submatrix = inner . map inner
@@ -26,5 +26,5 @@ submatrix = inner . map inner
 snail :: Matrix -> [Integer]
 snail [] = []
 snail (x:[]) = x
-snail ((x:[]):xs) = [x] ++ (map head xs)
+snail ((x:[]):xs) = x : map head xs
 snail x = perimeter x ++ snail ( submatrix x )
