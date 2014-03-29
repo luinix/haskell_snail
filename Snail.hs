@@ -6,7 +6,7 @@ goRight :: Matrix -> [Integer]
 goRight = head
 
 goDown :: Matrix -> [Integer]
-goDown x = tail $ map last x
+goDown = tail . map last
 
 rotate :: Matrix -> Matrix
 rotate = reverse . map reverse
